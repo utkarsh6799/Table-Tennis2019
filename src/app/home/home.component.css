@@ -1,7 +1,7 @@
 header {
     position: relative;
     background-color: black;
-    height: 100vh;
+    height: 120vh;
     min-height: 25rem;
     width: 100%;
     overflow: hidden;
@@ -65,4 +65,40 @@ header {
       
   }
 
+  .number,.heading{
+    font-family: 'Oswald', sans-serif;
+  }
+
   /*About*/
+  .number{
+      font-size: 4rem;
+  }
+  .about-text{
+      text-align: justify;
+      line-height: 1.3rem;
+  }
+  .about-image{
+   width: 100%;
+ 
+  }
+  .line{
+      background-color: black;
+      
+      padding: 0.9rem 0.07rem;
+  }
+
+  /* eligibility*/
+  .eligible{
+      margin-top: 6rem;
+  }
+  .list{
+      /* padding-left: 0; */
+     
+  }
+  .list li{
+    margin-bottom: 0.8rem;
+    font-size: 1rem;
+  }
+  .eligible-rules{
+      padding-top: 7rem;
+  }
