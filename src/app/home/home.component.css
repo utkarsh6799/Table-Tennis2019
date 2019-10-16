@@ -1,7 +1,7 @@
 header {
     position: relative;
     background-color: black;
-    height: 84vh;
+    height: 100vh;
     min-height: 25rem;
     width: 100%;
     overflow: hidden;
@@ -39,8 +39,13 @@ header {
   }
 
   .head{
+      padding-top: 6rem;
       font-weight: 400;
       letter-spacing: 0.425rem;
+  }
+  .head-img{
+      width: 12%;
+      padding-top: 7rem;
   }
   .head-text{
       font-size: 1.3rem;
@@ -149,12 +154,12 @@ header {
   .reporting{
     font-family: 'Poiret One', cursive;
     font-size: 2rem;
-    border-bottom: 2px solid black;
     line-height: 1.5rem;
   }
   .box{
+    border-top: 4px solid black;
       box-shadow: 5px 5px 25px 5px rgba(58, 58, 58, 0.11);
-      border-radius: 0.6rem;
+      border-radius: 0.4rem;
   }
 .content{
     margin-top: 5rem;
@@ -221,3 +226,140 @@ header {
 .copy a{
     text-decoration: none;
 }
+
+
+
+
+@media (min-width: 1280px) and (max-width: 1480px){
+    .box{
+      margin-top: 2rem;
+      height: 10rem;
+    }
+    .box img{
+      width: 50%;
+    }
+    .box p{
+      font-size: 0.8em;
+    }
+    }
+    
+
+
+    @media (min-width: 1024px) and (max-width: 1280px){
+    
+    }
+    @media (min-width: 768px) and (max-width: 1024px){
+     
+      
+    }
+   
+    @media (min-width: 500px) and (max-width: 768px) {
+      
+    }
+    @media (min-width: 380px) and (max-width: 500px){
+      .head{
+          font-size: 1rem;
+          padding-top: 4rem;
+      }
+      .head-img{
+          width: 30%;
+      }
+      .head-text{
+          font-size: 0.8rem;
+      }
+      .footer-img{
+          width: 30%;
+      }
+      .eligible-rules{
+          padding-top: 1rem;
+      }
+      .eligible-head{
+          font-size: 0.95rem;
+      }
+      .list li{
+          font-size: 0.8rem;
+      }
+      .list{
+          margin-top: 0;
+          padding-left: 0.7rem;
+      }
+      .notes{
+          margin-top: 4rem;
+      }
+      .list-notes li{
+        margin-bottom: 1rem;
+        font-size: 0.8rem;
+    }
+    .list-notes{
+        padding-left: 0.7rem;
+    }
+    .team{
+        margin-top: 3rem;
+    }
+    .copy{
+        font-size: 0.8rem;
+    }
+    .name{
+        font-size: 0.7rem;
+        margin-top: 0.7rem;
+    }
+    .num{
+        font-size: 0.7rem;
+    }
+    }
+    @media (min-width: 320px) and (max-width: 380px){
+        .head{
+            font-size: 1rem;
+        }
+        .head{
+            font-size: 1rem;
+            padding-top: 4rem;
+        }
+        .head-img{
+            width: 30%;
+        }
+        .head-text{
+            font-size: 0.8rem;
+        }
+        .footer-img{
+            width: 30%;
+        }
+        .eligible-rules{
+            padding-top: 1rem;
+        }
+        .eligible-head{
+            font-size: 0.95rem;
+        }
+        .list li{
+            font-size: 0.8rem;
+        }
+        .list{
+            margin-top: 0;
+            padding-left: 0.7rem;
+        }
+        .notes{
+            margin-top: 4rem;
+        }
+        .list-notes li{
+          margin-bottom: 1rem;
+          font-size: 0.8rem;
+      }
+      .list-notes{
+          padding-left: 0.7rem;
+      }
+      .team{
+          margin-top: 3rem;
+      }
+      .copy{
+          font-size: 0.62rem;
+      }
+      .name{
+          font-size: 0.6rem;
+          margin-top: 0.7rem;
+      }
+      .num{
+          font-size: 0.6rem;
+          letter-spacing: 0.035rem;
+      }
+    
+    }
