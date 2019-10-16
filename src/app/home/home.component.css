@@ -64,15 +64,29 @@ header {
       margin-top: 5rem;
       
   }
+  .bg-color{
+    background: #fafafa;
+  }
 
-  .number,.heading{
+  .number,.heading,.heading-st{
     font-family: 'Oswald', sans-serif;
+  }
+  .modal-list{
+      list-style: none;
+      padding-left: 0;
   }
 
   /*About*/
+  .heading{
+      font-size: 3.5rem;
+  }
   .number{
       font-size: 4rem;
   }
+  .heading-st{
+    font-size: 3.5rem;
+  }
+  
   .about-text{
       text-align: justify;
       line-height: 1.3rem;
@@ -186,9 +200,24 @@ header {
 .follow{
     margin-top: 4rem;
 }
-.icons{
+/* .icons{
     margin-top: 5rem;
-}
+} */
 .fa{
     font-size: 2rem;
+}
+
+
+.footer{
+    background-color: black;
+}
+.footer-img{
+    width: 7%;
+}
+
+.copy{
+    color: white;
+}
+.copy a{
+    text-decoration: none;
 }
