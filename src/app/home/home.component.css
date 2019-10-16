@@ -115,9 +115,9 @@ header {
   .prize{
       overflow-x: auto;
   }
-  .table{
+  /* .table{
       width: 100%;
-  }
+  } */
   .line-vertical{
       padding: 0.01rem 2rem;
       background-color: black;
@@ -144,4 +144,51 @@ header {
   }
 .content{
     margin-top: 5rem;
+}
+
+.table td,.table th{
+    padding: 0.645rem;
+    font-size: 0.7rem;
+}
+.fees{
+    margin-top: 8rem;
+}
+
+
+.notes{
+    margin-top: 8rem;
+}
+.list-notes{
+    margin-top: 1rem;
+   
+}
+.list-notes li{
+  margin-bottom: 1.3rem;
+  font-size: 0.9rem;
+  letter-spacing: 0.032rem;
+}
+.invideo{
+    margin-top:8rem;
+}
+
+.video{
+    display: block;
+}
+
+
+.orga{
+    border-radius: 50%;
+    width: 100%;
+}
+.team{
+    margin-top: 10rem;
+}
+.follow{
+    margin-top: 4rem;
+}
+.icons{
+    margin-top: 5rem;
+}
+.fa{
+    font-size: 2rem;
 }
