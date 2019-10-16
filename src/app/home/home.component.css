@@ -1,7 +1,7 @@
 header {
     position: relative;
     background-color: black;
-    height: 120vh;
+    height: 84vh;
     min-height: 25rem;
     width: 100%;
     overflow: hidden;
@@ -34,7 +34,7 @@ header {
     height: 100%;
     width: 100%;
     background-color: black;
-    opacity: 0.6;
+    opacity: 0.8;
     z-index: 1;
   }
 
@@ -76,6 +76,7 @@ header {
   .about-text{
       text-align: justify;
       line-height: 1.3rem;
+      font-size: 0.9rem;
   }
   .about-image{
    width: 100%;
@@ -88,17 +89,59 @@ header {
   }
 
   /* eligibility*/
+  .eligible-head{
+      font-size: 1.5rem;
+  }
   .eligible{
       margin-top: 6rem;
   }
   .list{
-      /* padding-left: 0; */
+      margin-top: 2rem;
      
   }
   .list li{
-    margin-bottom: 0.8rem;
+    margin-bottom: 1.3rem;
     font-size: 1rem;
+    letter-spacing: 0.032rem;
   }
   .eligible-rules{
-      padding-top: 7rem;
+      padding-top: 3rem;
   }
+
+  /*prize*/
+  .prizes{
+      margin-top: 5rem;
+  }
+  .prize{
+      overflow-x: auto;
+  }
+  .table{
+      width: 100%;
+  }
+  .line-vertical{
+      padding: 0.01rem 2rem;
+      background-color: black;
+  }
+  
+
+  /*schedule*/
+
+  .schedule-image{
+      width: 100%;
+  }
+  .schedule{
+      margin-top: 5rem;
+  }
+  .reporting{
+    font-family: 'Poiret One', cursive;
+    font-size: 2rem;
+    border-bottom: 2px solid black;
+    line-height: 1.5rem;
+  }
+  .box{
+      box-shadow: 5px 5px 25px 5px rgba(58, 58, 58, 0.11);
+      border-radius: 0.6rem;
+  }
+.content{
+    margin-top: 5rem;
+}
