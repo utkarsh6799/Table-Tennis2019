@@ -6,6 +6,9 @@ header {
     width: 100%;
     overflow: hidden;
   }
+  .fullwidth{
+    height: 100vh;
+  }
   
   header video {
     position: absolute;
@@ -37,6 +40,7 @@ header {
     opacity: 0.8;
     z-index: 1;
   }
+  
 
   .head{
       padding-top: 6rem;
@@ -65,13 +69,48 @@ header {
       color: white;
   }
   .arrow-down{
-      font-size: 3rem;
-      margin-top: 5rem;
-      
+    font-size: 3rem;
+    margin-top: 5rem;
+    animation: bounce 1.5s infinite;
+    /* animation: 0.8s bounce infinite; */
+    
+}
+@keyframes bounce {
+  from,
+  20%,
+  53%,
+  80%,
+  to {
+    -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
   }
-  .bg-color{
+
+  40%,
+  43% {
+    -webkit-animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+    animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+    -webkit-transform: translate3d(0, -30px, 0);
+    transform: translate3d(0, -30px, 0);
+  }
+
+  70% {
+    -webkit-animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+    animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+    -webkit-transform: translate3d(0, -15px, 0);
+    transform: translate3d(0, -15px, 0);
+  }
+
+  90% {
+    -webkit-transform: translate3d(0, -4px, 0);
+    transform: translate3d(0, -4px, 0);
+  }
+}
+
+  /* .bg-color{
     background: #fafafa;
-  }
+  } */
 
   .number,.heading,.heading-st{
     font-family: 'Oswald', sans-serif;
@@ -82,11 +121,14 @@ header {
   }
 
   /*About*/
+  .about{
+    margin-top: 1rem;
+}
   .heading{
-      font-size: 3.5rem;
+      font-size: 3rem;
   }
   .number{
-      font-size: 4rem;
+      font-size: 3.5rem;
   }
   .heading-st{
     font-size: 3.5rem;
@@ -95,36 +137,40 @@ header {
   .about-text{
       text-align: justify;
       line-height: 1.3rem;
-      font-size: 0.9rem;
+      font-size: 0.8rem;
   }
   .about-image{
-   width: 100%;
+   width: 90%;
+   margin-top: 0rem;
  
   }
   .line{
       background-color: black;
       
-      padding: 0.9rem 0.07rem;
+      padding: 0.8rem 0.07rem;
   }
 
   /* eligibility*/
   .eligible-head{
-      font-size: 1.5rem;
+      font-size: 1.2rem;
   }
   .eligible{
-      margin-top: 6rem;
+      margin-top: 1rem;
   }
   .list{
-      margin-top: 2rem;
+      margin-top: 0.5rem;
      
   }
   .list li{
-    margin-bottom: 1.3rem;
-    font-size: 1rem;
+    margin-bottom: 0.7rem;
+    font-size: 0.9rem;
     letter-spacing: 0.032rem;
   }
   .eligible-rules{
-      padding-top: 3rem;
+      padding-top: 1rem;
+  }
+  .eligible-image{
+      width: 90%;
   }
 
   /*prize*/
@@ -149,7 +195,7 @@ header {
       width: 100%;
   }
   .schedule{
-      margin-top: 5rem;
+      margin-top: 10rem;
   }
   .reporting{
     font-family: 'Poiret One', cursive;
@@ -161,34 +207,37 @@ header {
       box-shadow: 5px 5px 25px 5px rgba(58, 58, 58, 0.11);
       border-radius: 0.4rem;
   }
+  .box-2{
+      margin-top: 4.8rem;
+  }
 .content{
     margin-top: 5rem;
 }
 
-.table td,.table th{
+/* .table td,.table th{
     padding: 0.645rem;
     font-size: 0.7rem;
-}
+} */
 .fees{
-    margin-top: 8rem;
+    margin-top: 1rem;
 }
 
 
 .notes{
-    margin-top: 8rem;
+    margin-top: 3rem;
 }
 .list-notes{
     margin-top: 1rem;
    
 }
 .list-notes li{
-  margin-bottom: 1.3rem;
+  margin-bottom: 1rem;
   font-size: 0.9rem;
   letter-spacing: 0.032rem;
 }
-.invideo{
+/* .invideo{
     margin-top:8rem;
-}
+} */
 
 .video{
     display: block;
@@ -199,8 +248,14 @@ header {
     border-radius: 50%;
     width: 100%;
 }
-.team{
-    margin-top: 10rem;
+.orga-team{
+    margin-top: 3rem;
+}
+.con-team{
+    margin-top: 7rem;
+}
+.web-team{
+    margin-top: 2rem;
 }
 .follow{
     margin-top: 4rem;
@@ -217,7 +272,7 @@ header {
     background-color: black;
 }
 .footer-img{
-    width: 7%;
+    width: 5%;
 }
 
 .copy{
@@ -231,10 +286,10 @@ header {
 
 
 @media (min-width: 1280px) and (max-width: 1480px){
-    .box{
-      margin-top: 2rem;
-      height: 10rem;
-    }
+    /* .box{
+      margin-top: 4.8rem;
+      
+    } */
     .box img{
       width: 50%;
     }
@@ -257,7 +312,10 @@ header {
       
     }
     @media (min-width: 380px) and (max-width: 500px){
-      .head{
+      .about{
+          margin-top: 3rem;
+      }
+        .head{
           font-size: 1rem;
           padding-top: 4rem;
       }
@@ -269,6 +327,21 @@ header {
       }
       .footer-img{
           width: 30%;
+      }
+      .eligible{
+          margin-top: 2rem;
+      }
+      .prizes{
+          margin-top: 44rem;
+      }
+      .schedule{
+          margin-top: 1rem;
+      }
+      .fees{
+          margin-top: 16rem;
+      }
+      .notes{
+          margin-top: 25rem;
       }
       .eligible-rules{
           padding-top: 1rem;
@@ -283,9 +356,7 @@ header {
           margin-top: 0;
           padding-left: 0.7rem;
       }
-      .notes{
-          margin-top: 4rem;
-      }
+      
       .list-notes li{
         margin-bottom: 1rem;
         font-size: 0.8rem;
@@ -293,8 +364,14 @@ header {
     .list-notes{
         padding-left: 0.7rem;
     }
+    .invideo{
+        margin-top: 50rem;
+    }
     .team{
         margin-top: 3rem;
+    }
+    .con-team{
+        margin-top: 20rem;
     }
     .copy{
         font-size: 0.8rem;
@@ -308,10 +385,10 @@ header {
     }
     }
     @media (min-width: 320px) and (max-width: 380px){
-        .head{
-            font-size: 1rem;
+        .about{
+            margin-top: 3rem;
         }
-        .head{
+          .head{
             font-size: 1rem;
             padding-top: 4rem;
         }
@@ -323,6 +400,21 @@ header {
         }
         .footer-img{
             width: 30%;
+        }
+        .eligible{
+            margin-top: 2rem;
+        }
+        .prizes{
+            margin-top: 44rem;
+        }
+        .schedule{
+            margin-top: 1rem;
+        }
+        .fees{
+            margin-top: 16rem;
+        }
+        .notes{
+            margin-top: 40rem;
         }
         .eligible-rules{
             padding-top: 1rem;
@@ -337,9 +429,7 @@ header {
             margin-top: 0;
             padding-left: 0.7rem;
         }
-        .notes{
-            margin-top: 4rem;
-        }
+        
         .list-notes li{
           margin-bottom: 1rem;
           font-size: 0.8rem;
@@ -347,8 +437,14 @@ header {
       .list-notes{
           padding-left: 0.7rem;
       }
+      .invideo{
+          margin-top: 50rem;
+      }
       .team{
           margin-top: 3rem;
+      }
+      .con-team{
+          margin-top: 20rem;
       }
       .copy{
           font-size: 0.62rem;
@@ -363,3 +459,10 @@ header {
       }
     
     }
+
+    @media (max-width: 320px){
+        .invideo{
+            margin-top: 60rem;
+        }
+    }
+    
