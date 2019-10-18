@@ -235,3 +235,8 @@ Main Components
     display: block;
   }
 }
+@media only screen and (max-width: 500px){
+  .cd-section{
+    height: auto;
+  }
+}
