@@ -115,10 +115,7 @@ header {
   .number,.heading,.heading-st{
     font-family: 'Oswald', sans-serif;
   }
-  .modal-list{
-      list-style: none;
-      padding-left: 0;
-  }
+  
 
   /*About*/
   .about{
@@ -180,9 +177,7 @@ header {
   .prize{
       overflow-x: auto;
   }
-  /* .table{
-      width: 100%;
-  } */
+  
   .line-vertical{
       padding: 0.01rem 2rem;
       background-color: black;
@@ -231,13 +226,15 @@ header {
    
 }
 .list-notes li{
-  margin-bottom: 1rem;
-  font-size: 0.9rem;
-  letter-spacing: 0.032rem;
+  margin-bottom: 1.1rem;
+  font-size: 1.1rem;
+  
 }
-/* .invideo{
-    margin-top:8rem;
-} */
+.note-image{
+    width: 100%;
+    height: 32rem;
+}
+
 
 .video{
     display: block;
@@ -281,27 +278,173 @@ header {
 .copy a{
     text-decoration: none;
 }
+.cd-vertical-nav{
+    list-style: none;
+}
 
 
 
 
 @media (min-width: 1280px) and (max-width: 1480px){
-    /* .box{
-      margin-top: 4.8rem;
-      
-    } */
+
     .box img{
       width: 50%;
     }
     .box p{
       font-size: 0.8em;
     }
+    .head{
+        padding-top: 4rem;
+        
     }
-    
+    .head-img{
+        width: 16%;
+        padding-top: 7rem;
+    }
+    .head-text{
+        font-size: 1.3rem;
+       
+    }
+
+    /*about*/
+
+    .about{
+        margin-top: 2rem;
+    }
+      .heading{
+          font-size: 4rem;
+      }
+      .number{
+          font-size: 4.5rem;
+      }
+      .heading-st{
+        font-size: 4.5rem;
+      }
+      
+      .about-text{
+          
+          line-height: 1.3rem;
+          font-size: 0.8rem;
+      }
+      .about-image{
+       width: 100%;
+       margin-top: 0rem;
+    }
+
+    /* eligibility*/
+  .eligible-head{
+    font-size: 1.2rem;
+}
+.eligible{
+    margin-top: 3rem;
+}
+.list{
+    margin-top: 1rem;
+   
+}
+.list li{
+  margin-bottom: 1rem;
+  font-size: 0.9rem;
+}
+.eligible-rules{
+    padding-top: 2rem;
+}
+.eligible-image{
+    width: 100%;
+}
+.prizes{
+    margin-top: 7rem;
+
+ }
+ .table td, .table th {
+    padding: 1.28rem;
+ }
+ .box-2{
+    margin-top: 6rem;
+}
+.orga-team{
+    margin-top: 4rem;
+}
+.invideo{
+    margin-top: 4rem;
+}
+.con-team{
+    margin-top: 11rem;
+}
+.web-team{
+    margin-top: 8rem;
+}
+.follow{
+    margin-top: 8rem;
+}
+
+}
 
 
     @media (min-width: 1024px) and (max-width: 1280px){
+        .web-team{
+            margin-top: 6rem;
+        }
+        .follow{
+            margin-top: 6rem;
+        }
+        .about{
+            margin-top: 2rem;
+        }
+          .heading{
+              font-size: 3rem;
+          }
+          .number{
+              font-size: 3.5rem;
+          }
+          .heading-st{
+            font-size: 4.5rem;
+          }
+          
+          .about-text{
+              
+              line-height: 1.3rem;
+              font-size: 0.8rem;
+          }
+          .about-image{
+           width: 100%;
+           margin-top: 0rem;
+        }
     
+        /* eligibility*/
+      .eligible-head{
+        font-size: 1.2rem;
+    }
+    .eligible{
+        margin-top: 2rem;
+    }
+    .list{
+        margin-top: 1rem;
+       
+    }
+    .list li{
+      margin-bottom: 0.6rem;
+      font-size: 0.9rem;
+    }
+    .eligible-rules{
+        padding-top: 2rem;
+    }
+    .eligible-image{
+        width: 100%;
+    }
+    .table td, .table th {
+        padding: 1rem;
+     }
+     .notes{
+        margin-top: 2rem;
+    }
+    .list-notes{
+        margin-top: 0;
+    }
+    .list-notes li{
+      margin-bottom: 1rem;
+    }
+        
     }
     @media (min-width: 768px) and (max-width: 1024px){
      
@@ -309,9 +452,17 @@ header {
     }
    
     @media (min-width: 500px) and (max-width: 768px) {
-      
+        .list-notes li {
+            margin-bottom: 1.1rem;
+            font-size: 0.85rem;
+        }
+        
+        
     }
     @media (min-width: 380px) and (max-width: 500px){
+        .fullwidth{
+            height: 40rem;
+        }
       .about{
           margin-top: 3rem;
       }
@@ -340,8 +491,11 @@ header {
       .fees{
           margin-top: 16rem;
       }
+      .table td, .table th {
+        font-size: 0.8rem;
+     }
       .notes{
-          margin-top: 25rem;
+          margin-top: 20rem;
       }
       .eligible-rules{
           padding-top: 1rem;
@@ -358,7 +512,7 @@ header {
       }
       
       .list-notes li{
-        margin-bottom: 1rem;
+        margin-bottom: 0.8rem;
         font-size: 0.8rem;
     }
     .list-notes{
@@ -385,6 +539,9 @@ header {
     }
     }
     @media (min-width: 320px) and (max-width: 380px){
+        .fullwidth{
+            height: 40rem;
+        }
         .about{
             margin-top: 3rem;
         }
@@ -405,16 +562,19 @@ header {
             margin-top: 2rem;
         }
         .prizes{
-            margin-top: 44rem;
+            margin-top: 50rem;
         }
         .schedule{
-            margin-top: 1rem;
+            margin-top: 5rem;
         }
         .fees{
-            margin-top: 16rem;
+            margin-top: 24rem;
         }
+        .table td, .table th {
+            font-size: 0.8rem;
+         }
         .notes{
-            margin-top: 40rem;
+            margin-top: 20rem;
         }
         .eligible-rules{
             padding-top: 1rem;
@@ -431,8 +591,8 @@ header {
         }
         
         .list-notes li{
-          margin-bottom: 1rem;
-          font-size: 0.8rem;
+          margin-bottom: 0.7rem;
+          font-size: 0.7rem;
       }
       .list-notes{
           padding-left: 0.7rem;
@@ -463,6 +623,9 @@ header {
     @media (max-width: 320px){
         .invideo{
             margin-top: 60rem;
+        }
+        .notes{
+            margin-top: 20rem;
         }
     }
     
