@@ -71,11 +71,11 @@ header {
   .arrow-down{
     font-size: 3rem;
     margin-top: 5rem;
-    animation: bounce 1.5s infinite;
-    /* animation: 0.8s bounce infinite; */
+    /* animation: bounce 1.5s infinite; */
+    
     
 }
-@keyframes bounce {
+/* @keyframes bounce {
   from,
   20%,
   53%,
@@ -106,7 +106,7 @@ header {
     -webkit-transform: translate3d(0, -4px, 0);
     transform: translate3d(0, -4px, 0);
   }
-}
+} */
 
   /* .bg-color{
     background: #fafafa;
@@ -456,11 +456,16 @@ header {
         
     }
     @media (min-width: 768px) and (max-width: 1024px){
-     
+        .fullwidth{
+            height: auto;
+        }
       
     }
    
     @media (min-width: 500px) and (max-width: 768px) {
+        .fullwidth{
+            height: auto;
+        }
         .list-notes li {
             margin-bottom: 1.1rem;
             font-size: 0.85rem;
@@ -470,42 +475,48 @@ header {
     }
     @media (min-width: 380px) and (max-width: 500px){
         .fullwidth{
-            height: 40rem;
+            height: auto;
         }
       .about{
           margin-top: 3rem;
-      }
+       }
+      .about-image{
+        width: 100%;
+       }
         .head{
           font-size: 1rem;
           padding-top: 4rem;
-      }
+       }
       .head-img{
           width: 30%;
-      }
+       }
       .head-text{
           font-size: 0.8rem;
-      }
+       }
       .footer-img{
           width: 30%;
       }
       .eligible{
           margin-top: 2rem;
       }
-      .prizes{
-          margin-top: 44rem;
+      .eligible-image{
+        width: 100%;
       }
+      /* .prizes{
+          margin-top: 44rem;
+      } */
       .schedule{
           margin-top: 1rem;
       }
-      .fees{
-          margin-top: 16rem;
-      }
+      /* .fees{
+          margin-top: 24rem;
+      } */
       .table td, .table th {
         font-size: 0.8rem;
      }
-      .notes{
+      /* .notes{
           margin-top: 20rem;
-      }
+      } */
       .eligible-rules{
           padding-top: 1rem;
       }
@@ -527,15 +538,15 @@ header {
     .list-notes{
         padding-left: 0.7rem;
     }
-    .invideo{
+    /* .invideo{
         margin-top: 50rem;
-    }
+    } */
     .team{
         margin-top: 3rem;
     }
-    .con-team{
+    /* .con-team{
         margin-top: 20rem;
-    }
+    } */
     .copy{
         font-size: 0.8rem;
     }
@@ -549,12 +560,15 @@ header {
     }
     @media (min-width: 320px) and (max-width: 380px){
         .fullwidth{
-            height: 40rem;
+            height: auto;
         }
         .about{
             margin-top: 3rem;
         }
-          .head{
+        .about-image{
+            width: 100%;
+        }
+        .head{
             font-size: 1rem;
             padding-top: 4rem;
         }
@@ -570,26 +584,29 @@ header {
         .eligible{
             margin-top: 2rem;
         }
-        .prizes{
+        .eligible-image{
+            width: 100%;
+          }
+        /* .prizes{
             margin-top: 50rem;
-        }
+        } */
         .schedule{
             margin-top: 5rem;
         }
-        .fees{
+        /* .fees{
             margin-top: 24rem;
-        }
+        } */
         .table td, .table th {
             font-size: 0.8rem;
          }
-        .notes{
+        /* .notes{
             margin-top: 20rem;
-        }
+        } */
         .eligible-rules{
             padding-top: 1rem;
         }
         .eligible-head{
-            font-size: 0.95rem;
+            font-size: 0.9rem;
         }
         .list li{
             font-size: 0.8rem;
@@ -606,15 +623,15 @@ header {
       .list-notes{
           padding-left: 0.7rem;
       }
-      .invideo{
+      /* .invideo{
           margin-top: 50rem;
-      }
+      } */
       .team{
           margin-top: 3rem;
       }
-      .con-team{
+      /* .con-team{
           margin-top: 20rem;
-      }
+      } */
       .copy{
           font-size: 0.62rem;
       }
