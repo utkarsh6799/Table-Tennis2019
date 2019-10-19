@@ -213,6 +213,8 @@ header .overlay {
 
 .video {
   display: block;
+  width: 430px;
+  height: 250px;
 }
 
 .orga {
@@ -566,6 +568,17 @@ header .overlay {
   .num {
     font-size: 0.7rem;
   }
+  .video {
+    display: block;
+    width: 280px;
+    height: 150px;
+  }
+  .gallery{
+    margin-top: 4rem;
+  }
+  .fees{
+    margin-top: 3rem;
+  }
 }
 @media (min-width: 320px) and (max-width: 380px) {
   .fullwidth {
@@ -636,6 +649,12 @@ header .overlay {
   .list-notes {
     padding-left: 0.7rem;
   }
+  .gallery{
+    margin-top: 4rem;
+  }
+  .fees{
+    margin-top: 3rem;
+  }
   /* .invideo{
           margin-top: 50rem;
       } */
@@ -647,6 +666,11 @@ header .overlay {
       } */
   .copy {
     font-size: 0.62rem;
+  }
+  .video {
+    display: block;
+    width: 280px;
+    height: 150px;
   }
   .name {
     font-size: 0.6rem;
