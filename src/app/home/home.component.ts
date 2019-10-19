@@ -6,28 +6,28 @@ import Parallax from 'parallax-js';
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent implements OnInit {
-  
+
   constructor() {
-    
+
    }
 
   ngOnInit() {
-    let scene = document.getElementById('scene');
+    const scene = document.getElementById('scene');
     var parallaxInstance = new Parallax(scene, {
       hoverOnly: true
     });
 
-    let scene1 = document.getElementById('scene1');
+    const scene1 = document.getElementById('scene1');
     var parallaxInstance = new Parallax(scene1, {
       hoverOnly: true
     });
 
-    let scene2 = document.getElementById('scene2');
+    const scene2 = document.getElementById('scene2');
     var parallaxInstance = new Parallax(scene2, {
       hoverOnly: true
     });
 
-    let scene3 = document.getElementById('scene3');
+    const scene3 = document.getElementById('scene3');
     var parallaxInstance = new Parallax(scene3, {
       hoverOnly: true
     });
