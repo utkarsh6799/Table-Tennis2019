@@ -37,7 +37,7 @@ header .overlay {
   height: 100%;
   width: 100%;
   background-color: black;
-  opacity: 0.8;
+  opacity: 0.7;
   z-index: 1;
 }
 
@@ -194,6 +194,23 @@ header .overlay {
   box-shadow: 5px 5px 20px 1px rgba(58, 58, 58, 0.336);
 }
 
+.one{
+  margin-top: 0.7rem;
+}
+.two{
+  margin-top: 1.4rem;
+}
+.bk{
+  background-color: #f1f0f0fa;
+  padding: 1.5rem;
+}
+.gall-img{
+  width: 90%;
+  /* margin: 1rem auto; */
+  transform: rotate(-2.5deg);
+  box-shadow: 5px 5px 20px 4px rgba(58, 58, 58, 0.397);
+}
+
 .video {
   display: block;
 }
@@ -326,6 +343,22 @@ header .overlay {
   .eligible-image {
     width: 100%;
   }
+  .one{
+    margin-top: 3rem;
+  }
+  .two{
+    margin-top: 4rem;
+  }
+  .bk{
+    background-color: #f1f0f0fa;
+    padding: 1.5rem;
+  }
+  .gall-img{
+    width: 90%;
+    /* margin: 1rem auto; */
+    transform: rotate(-2.5deg);
+    box-shadow: 5px 5px 20px 4px rgba(58, 58, 58, 0.397);
+  }
   .prizes {
     margin-top: 7rem;
   }
@@ -378,7 +411,7 @@ header .overlay {
     font-size: 3.5rem;
   }
   .heading-st {
-    font-size: 4.5rem;
+    font-size: 3.5rem;
   }
 
   .about-text {
@@ -409,6 +442,12 @@ header .overlay {
   }
   .eligible-image {
     width: 100%;
+  }
+  .one{
+    margin-top: 1rem;
+  }
+  .two{
+    margin-top: 2rem;
   }
   .table td,
   .table th {
@@ -490,6 +529,9 @@ header .overlay {
   .eligible-head {
     font-size: 0.95rem;
   }
+  .two{
+    margin-top: 0rem;
+  }
   .list li {
     font-size: 0.8rem;
   }
@@ -560,6 +602,9 @@ header .overlay {
   .schedule {
     margin-top: 5rem;
   }
+  .two{
+    margin-top: 0rem;
+  }
   /* .fees{
             margin-top: 24rem;
         } */
@@ -614,10 +659,10 @@ header .overlay {
 }
 
 @media (max-width: 320px) {
-  .invideo {
+  /* .invideo {
     margin-top: 60rem;
   }
   .notes {
     margin-top: 20rem;
-  }
+  } */
 }
