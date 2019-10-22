@@ -37,7 +37,7 @@ header .overlay {
   height: 100%;
   width: 100%;
   background-color: black;
-  opacity: 0.7;
+  opacity: 0.8;
   z-index: 1;
 }
 
@@ -310,6 +310,8 @@ header .overlay {
 
 .footer {
   background-color: black;
+  /* bottom: 0;
+  position: absolute; */
 }
 .footer-img {
   width: 5%;
@@ -511,6 +513,9 @@ header .overlay {
   .fullwidth {
     height: auto;
   }
+  .footer{
+    display: block;
+  }
 }
 
 @media (min-width: 500px) and (max-width: 768px) {
@@ -520,6 +525,9 @@ header .overlay {
   .list-notes li {
     margin-bottom: 1.1rem;
     font-size: 0.85rem;
+  }
+  .footer{
+    display: block;
   }
 }
 @media (min-width: 380px) and (max-width: 500px) {
@@ -621,6 +629,9 @@ header .overlay {
   .fees{
     margin-top: 3rem;
   }
+  .footer{
+    display: block;
+  }
 }
 @media (min-width: 320px) and (max-width: 380px) {
   .fullwidth {
@@ -721,6 +732,12 @@ header .overlay {
   .num {
     font-size: 0.6rem;
     letter-spacing: 0.035rem;
+  }
+  .footer{
+    display: block;
+  }
+  .silogo{
+    display: none;
   }
 }
 
